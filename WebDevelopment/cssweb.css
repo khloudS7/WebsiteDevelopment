@@ -1,0 +1,518 @@
+/*welcome page*/
+
+/*nav bar for menu*/
+.navbar a {
+    float:right;
+    display: block;
+    color: #4e2b2b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+ 
+  /*click mouse on menu */
+  .navbar a:hover {
+    background-color: rgb(87, 79, 79);
+    color: rgb(185, 171, 171);
+  }
+
+  /*  input type search use in welcome page */
+.search{ 
+  font-family:Lucida Grande;
+         text-align: left;
+         padding-left: 5px;
+
+        }
+
+ /* design input type search */
+
+ input[type=search]{
+            width: 17%;
+            padding: 3px 5px;
+            margin: 1px 0;
+            display: inline-block;
+            border: 2px rgba(122, 122, 122, 0.904);
+            box-sizing: border-box;
+            font-family:Lucida Grande;
+            color:rgb(243, 236, 236);
+            background-color: rgba(150, 148, 148, 0.2);
+          }
+
+  /* margin for these: */        
+ header,section,aside,footer 
+ {margin: 0 1.5% 24px 1.5%;}
+
+ /* edit all section */
+ section {
+  float: left;
+  width: 45%;}
+
+  /* design for first and second section */
+#firstSection , #secondSection{
+    display: block; 
+    border-radius: 25px;
+    flex: 1;
+    margin: 8;
+    color: rgb(53, 52, 52);
+    background-color:   #dac4d8;
+    font-family:Lucida Grande; 
+    text-align:left;
+    padding:10px; 
+  }
+
+ /* design first section */ 
+#firstSection{ 
+  font-size: 17px;  
+  padding-top: 40px;
+  }
+
+/* design for aritcal in first and second section */
+.articalFst1 ,.articalSec2{
+    border-radius: 4px;
+    padding-left: 50px;}
+
+ /* design second section */ 
+#secondSection{  
+  font-size: 12px; 
+  padding-bottom: 15px;
+  padding-top: 15px;
+   }
+
+ /* add background color in the body */ 
+  body {  
+    background-color:  rgba(223, 219, 223, 0.664);}
+
+ /* aside */ 
+  aside {
+
+    float: right;
+    text-align:left;
+    font-style: italic;
+    font-size: 18px; 
+    border-radius: 25px;
+    flex: 1;
+    background-color: rgb(197, 164, 193);
+    width: 30%;
+    padding: 10px;
+    padding-top: 150px;
+    padding-bottom: 180px;
+    background-image: linear-gradient(45deg,rgb(235, 232, 232) 25%,rgb(212, 183, 216) 25% , linen 50%, mistyrose 20%, 
+    seashell 45%);
+    
+ }
+
+ 
+ /* design footer */ 
+footer {
+ 
+    color: rgba(179, 178, 178, 0.692);
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0%;
+    clear: both;
+    border-top:1px solid; 
+    border-width: thick;
+ }
+
+  /* can display footer in mobile */ 
+ @media (max-width:500px) {
+  .footer{
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 19px;
+  }
+  } 
+
+  /*  --------------------------- */    
+
+  /* Form page (contact us) */
+  form{
+    text-align:center;
+  }
+   /* div class  */ 
+ .container{
+  padding-top: 30px;  
+  border-radius: 10px;
+  background-color: #cac2ce54;
+  position: relative;
+  padding: 15px ;
+  width: 40%;
+  margin: auto;
+  font-family:Lucida Grande;} 
+
+/*input type text*/
+ input[type=text]{
+    width: 40%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0em solid #ccc;
+    background-color:  rgba(199, 197, 197, 0.3);
+    font-family:Lucida Grande;
+  }
+
+/*input name rating for radio button */
+  select[name=rating]{
+    width: 50%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0em solid #ccc;
+    box-sizing: border-box;
+    font-family:Lucida Grande;
+    background-color:  rgba(199, 197, 197, 0.3);
+
+  }
+
+  /*input type for date*/
+  input[type=date]{
+    width: 50%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0em solid #ccc;
+    box-sizing: border-box;
+    font-family:Lucida Grande;
+    background-color:  rgba(199, 197, 197, 0.3);
+
+  }
+
+  /*input type for time*/
+  input[type=time]{
+    width: 50%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0em solid #ccc;
+    box-sizing: border-box;
+    font-family:Lucida Grande;
+    background-color:  rgba(199, 197, 197, 0.3);
+
+  }
+
+  /*input type for email*/
+  input[name=email]{
+    width: 50%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0em solid #ccc;
+    box-sizing: border-box;
+    font-family:Lucida Grande;
+    background-color:  rgba(199, 197, 197, 0.3);
+
+  }
+
+  /*input type for tel*/
+  input[name=tel]{
+    width: 50%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0em solid #ccc;
+    box-sizing: border-box;
+    font-family:Lucida Grande;
+    background-color:  rgba(199, 197, 197, 0.3);
+
+  }
+
+
+  /*input type for comment*/
+  textarea[name=comments]{
+    width: 50%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0em solid #ccc;
+    box-sizing: border-box;
+    font-family:Lucida Grande;
+    background-color:  rgba(199, 197, 197, 0.3);
+
+  }
+
+    /*input type for reset button*/
+    input[type=reset] {
+      width: 23%;
+      background-color: #545754b9;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border-radius: 4px;
+      cursor: pointer;
+      text-align: center;
+      font-family:Lucida Grande;
+    }
+  
+  /*input type for submit button*/
+  input[type=submit] {
+    width: 23%;
+    background-color: #075508;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-family:Lucida Grande;
+  }
+  /*click mouse on submit button*/
+  input[type=submit]:hover {
+    background-color: #59755aa9;
+  }
+  
+  /*-------------------------------*/
+  /*More photo page*/
+
+/*div */
+.Morephoto{
+   margin: auto;}
+
+  /*all figurs*/
+figure {
+         display: inline-block;
+         text-align: center; 
+         font-family:Lucida Grande;
+         font-size: 20px;
+         margin: auto;
+         margin-left: auto;
+         margin-right: auto;}
+
+/*animation for figurs*/
+         .slide-1,.slide-2,.slide-3,.slide-4,.slide-5,.slide-6,.slide-7,.slide-8
+         {
+    
+            display: block;
+            position: absolute;
+            width: 25%;
+            height: 30%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left:480px;
+        }
+    
+  .slide-1{
+            animation: fadel1 20s infinite;
+        }
+      
+  .slide-2{
+            animation: fadel2 20s infinite;
+        }
+    
+ .slide-3{
+            animation: fadel3 20s infinite;
+        }
+  .slide-4{
+            animation: fadel4 20s infinite;
+        }    
+    
+  .slide-5{
+          animation: fadel5 20s infinite;
+      }    
+  
+ .slide-6{
+        animation: fadel6 20s infinite;
+    }    
+
+  .slide-7{
+      animation: fadel7 20s infinite;
+  }    
+
+  .slide-8{
+    animation: fadel8 20s infinite;
+}    
+
+    
+    @keyframes fadel1
+    {
+        0%{opacity: 1;}
+        15%{opacity: 0;}
+        25%{opacity: 0;}
+        40%{opacity: 0;}
+        50%{opacity: 0;}
+        60%{opacity: 0;}
+        75%{opacity: 0;}
+        85%{opacity: 0;}
+        100%{opacity: 1;}
+    }
+    
+    @keyframes fadel2
+    {
+      
+        0%{opacity: 0;}
+        15%{opacity: 1;}
+        25%{opacity: 0;}
+        40%{opacity: 0;}
+        50%{opacity: 0;}
+        60%{opacity: 0;}
+        75%{opacity: 0;}
+        85%{opacity: 0;}
+        100%{opacity: 0;}
+    }
+
+    @keyframes fadel3
+    {
+     
+        0%{opacity: 0;}
+        15%{opacity: 0;}
+        25%{opacity: 1;}
+        40%{opacity: 0;}
+        50%{opacity: 0;}
+        60%{opacity: 0;}
+        75%{opacity: 0;}
+        85%{opacity: 0;}
+        100%{opacity: 0;}
+   
+    }
+
+    @keyframes fadel4
+    {
+        0%{opacity: 0;}
+        15%{opacity: 0;}
+        25%{opacity: 0;}
+        40%{opacity: 1;}
+        50%{opacity: 0;}
+        60%{opacity: 0;}
+        75%{opacity: 0;}
+        85%{opacity: 0;}
+        100%{opacity: 0;}
+    }
+
+    @keyframes fadel5
+    {
+        0%{opacity: 0;}
+        15%{opacity: 0;}
+        25%{opacity: 0;}
+        40%{opacity: 0;}
+        50%{opacity: 1;}
+        60%{opacity: 0;}
+        75%{opacity: 0;}
+        85%{opacity: 0;}
+        100%{opacity: 0;}
+    }
+
+    @keyframes fadel6
+    {
+        0%{opacity: 0;}
+        15%{opacity: 0;}
+        25%{opacity: 0;}
+        40%{opacity: 0;}
+        50%{opacity: 0;}
+        60%{opacity: 1;}
+        75%{opacity: 0;}
+        85%{opacity: 0;}
+        100%{opacity: 0;}
+    }
+
+    @keyframes fadel7
+    {
+        0%{opacity: 0;}
+        15%{opacity: 0;}
+        25%{opacity: 0;}
+        40%{opacity: 0;}
+        50%{opacity: 0;}
+        60%{opacity: 0;}
+        75%{opacity: 1;}
+        85%{opacity: 0;}
+        100%{opacity: 0;}
+    }
+
+    @keyframes fadel8
+    {
+        0%{opacity: 0;}
+        15%{opacity: 0;}
+        25%{opacity: 0;}
+        40%{opacity: 0;}
+        50%{opacity: 0;}
+        60%{opacity: 0;}
+        75%{opacity: 0;}
+        85%{opacity: 1;}
+        100%{opacity: 0;}
+    }
+    
+  /*-------------------------------*/
+
+  /*About us*/
+  /*table*/
+.Table{  
+   border-collapse: collapse;
+   width: 100%;
+   border-spacing: 4;
+   text-align: center;
+   padding-top: 15px;
+   padding-bottom: 70px;
+   font-size: 17px;
+   position:relative;
+  }
+
+    /*caption*/
+#captionT{
+        padding-top: 30px;
+        padding-bottom: 10px;
+        font-size: 30px;
+        font-family:Garamond, serif; 
+        color: rgba(92, 55, 86, 0.61) ; 
+        text-align: center;}
+
+ th{ 
+    background-color: #8a7989b9;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+      
+th, td {
+  padding: 4px;
+  border-bottom: 2px solid #ddd;
+}
+
+td{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+color: rgb(133, 133, 133);}
+#Tfoot{
+  padding-bottom: 3em;}
+
+/*themes*/
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 2px 5px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+

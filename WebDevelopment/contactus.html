@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset = "utf-8">
+    <title> Contact us </title>
+    <link rel="stylesheet" type="text/css" href="cssweb.css"><!-- external sheet -->
+    <script type="text/javascript" src="javaScriptWeb.js"></script>
+
+
+    <!--Embedded style for header-->
+ <style type ="text/css">  
+
+    .header img {
+      float: left;
+      width: 70px;
+      height: 50px;
+      padding-left: 3px;
+    }
+    
+    .header h1 {
+      position: relative;
+      top:10px;
+     text-align: center;
+     color:rgb(61, 58, 59) ;
+     font-family:Lucida Grande;
+    padding-bottom: 25px;}
+
+</style>
+</head>
+
+<body>
+    <header>
+        <div class="header"> <!-- header for website  -->
+            <img src="logo.png" width="75" height="50" alt="Logo" >
+
+            <h1> ETA photography</h1>
+
+         </div>
+    </header>
+
+    <div class="container">
+
+    <form name="form" action=" " method="post" autocomplete = "on" >  <!-- start the form   -->
+    
+    <!-- Form Name -->
+    <h2 style=" font-family:Cambria, Cochin,'Times New Roman', serif ; color: rgba(78, 78, 78, 0.418);">
+    <br>To contact us and book an appointment to photograph your toddler <br><br> please complete this form and submit it:</h2>
+
+     <!-- Enter firat name by english langauge -->
+    <label><br> First Name (English):</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." size = "25" required>
+   
+
+   <!-- enter the gender by click on radio button  -->
+   <label><br><br>Choose the gender: </label>
+
+  <input name = "howtsite" type =  "radio" value="Female" id="gender" required> 
+  <label>Female </label>
+
+  <input name = "howtsite" type =  "radio" value="Male"  id="gender" required> 
+  <label>Male </label>
+
+
+  <!-- Enter toddler's age -->
+       <label><br><br> Age:</label>
+       <input type="text" id="age" name="age" placeholder="your toddler's age.." required>
+
+<label><br><br>Type Package: </label> <!-- enter the type package by rating  -->
+    <select name = "rating" id="TypePackage">
+    <option value=""></option>
+    <option value="1">Economy Package (350 SR) </option>
+    <option value="2">Classic Package (550 SR) </option>
+    <option value="3">Silver Package (700 SR) </option>
+    <option value="4">Bronze Package (1300 SR) </option>
+    <option value="5">Golden Package (2000 SR) </option>
+    <option value="6">Newborns Package (1) (800 SR) </option>
+    <option value="7">Newborns Package (2) (1500 SR) </option>
+    </select>
+>
+    
+ <!-- enter the date for booking  -->
+    <label><br>Date:</label>
+    <input type="date" required id="date">
+ 
+<!-- enter the time for booking  -->
+        <label><br>Time:</label>
+        <input type="time" required id="time" >
+       
+
+ <!-- enter the phone number for contact  -->
+<label><br>Your phone:</label>
+<input name="tel" placeholder="055-555-5555" pattern="([0-9]{3})([0-9]{3})([0-9]{4})" id="tel"
+ required>
+ 
+<!-- enter the email for contact  -->
+<label><br> E-mail Address:</label>
+<input name="email" placeholder = "name@domain.com" size = "25"  id="email" required>
+
+<!-- radio button for discount  -->
+
+<label><br><br>I agree to share & post your toddler photos on our Instagram(10% discount)? </label>
+<input name = "discount" type =  "radio" value="Yes" id="discount" required> 
+<label>Yes</label>
+
+<input name = "discount" type =  "radio" value="No" id="discount" required> 
+<label>No</label>
+
+
+<!-- if you have any comment enter here  -->
+    <label><br><br>Do you have any comment?<br></label>
+    <textarea  name = "comments" rows = "4" cols = "36" placeholder="comments"></textarea>
+
+
+<p> <input type = "Submit" value = "Submit " onClick=" Validation()"> 
+    <input type = "reset" value = "Reset "> <!-- submit  and reset button  --></p>
+
+</div><!--container -->  
+
+    </form>
+
+  
+    <!--footer-->
+    <footer>
+        <h5><strong> Copyright &copy;2020 ETA photography.</strong></h5>
+
+        Contact us at :
+        
+        <p>
+            <address>
+            <img src="email.png" width="20" height="15" alt="email icon">
+            <a href = "mailto:Elaftaleb1414@gmail.com">Elaftaleb1414@gmail.com</a>
+            </address>
+        </p>
+        
+           <p> 
+            <img src="insta.png.crdownload" width="20" height="13" alt="instagram icon">
+            
+            <a href = "https://instagram.com/photography_eta?utm_medium=copy_link">Instagram</a></p>
+        
+    </footer>
+</body>
+
+</html>

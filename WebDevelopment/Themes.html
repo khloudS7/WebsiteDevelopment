@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset = "utf-8">
+    <title> Themes </title>
+    <link rel="stylesheet" type="text/css" href="cssweb.css"><!-- external sheet -->
+    <script type="text/javascript" src="javaScriptWeb.js"></script>
+
+    
+    <!--Embedded style for header-->
+ <style type ="text/css">  
+
+    .header img {
+      float: left;
+      width: 70px;
+      height: 50px;
+      padding-left: 3px;
+    }
+    
+    .header h1 {
+      position: relative;
+      top:10px;
+     text-align: center;
+     color:rgb(61, 58, 59) ;
+     font-family:Lucida Grande;}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+
+</style>
+</head>
+
+
+<body>
+
+    <header>
+        <div class="header"> <!-- header for website  -->
+            <img src="logo.png" width="75" height="50" alt="Logo" >
+
+            <h1> ETA photography</h1>
+         </div>
+    </header>
+
+    <h1 style=" font-family:Lucida Grande; color: rgb(85, 79, 84) ; padding-left:10px; text-align: center;">
+        <br>Themes:</h1> 
+
+
+           <div style="text-align:center">
+            <p style="text-align:center ;font-family:Lucida Grande; color: rgb(85, 79, 84) ; padding-left:10px;">
+                Click on the images below:</p>
+          </div>
+          
+          <!-- The four columns -->
+          <div class="row" >
+
+            <div class="column"><img src="theme1.jpg" alt="theme1"  style="max-width:50% ; max-height:50%;" 
+                onclick="myFunction(this);"></div>
+
+            <div class="column"><img src="theme7.jpg" alt="theme2"  style="max-width:50%; max-height:70%;"
+                 onclick="myFunction(this);"> </div>
+
+            <div class="column"><img src="theme3.jpg" alt="theme3"  
+                style="max-width:50% ; max-height:50%;" onclick="myFunction(this);"></div>
+
+            <div class="column"><img src="theme6.jpg" alt="theme4"  
+                style="max-width:50%; max-height:50%; padding-left: 5px;"  onclick="myFunction(this);"> </div>
+   
+
+          </div>
+          
+          <div class="container">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <img id="expandedImg" style="width:100%">
+            <div id="imgtext"></div>
+          </div>
+
+
+            <h2 style=" font-family:Lucida Grande; padding-left:10px; "><br><strong>
+                <a  href =  "https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MTc2NjQ4MzMyMDIzMzM3?story_
+                  media_id=2447494477666635142&utm_medium=copy_link"> More Themes </a> 
+                </strong></h2> 
+
+
+            <footer>
+                <h5><strong> Copyright &copy;2020 ETA photography.</strong></h5>
+                
+                Contact us at :
+                                
+                    <p>
+                          <address>
+                           <img src="email.png" width="20" height="15" alt="email icon">
+                            <a href = "mailto:Elaftaleb1414@gmail.com">Elaftaleb1414@gmail.com</a>
+                            </address>
+                                </p>
+                                
+                     <p> 
+                         <img src="insta.png.crdownload" width="20" height="13" alt="instagram icon">
+                                    
+                        <a href = "https://instagram.com/photography_eta?utm_medium=copy_link">Instagram</a></p>
+                                
+                    </footer>
+</body>
+
+</html>

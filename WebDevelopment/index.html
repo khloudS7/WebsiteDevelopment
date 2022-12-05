@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html>
+
+ <head>
+ <meta charset = "utf-8">
+ <title> Welcome Page</title> <!--title of page-->
+ <link rel="stylesheet" type="text/css" href="cssweb.css"><!-- external sheet -->
+
+<!--Embedded style for header-->
+ <style type ="text/css">  
+
+.header img {
+  float: left;
+  width: 70px;
+  height: 50px;
+  padding-left: 3px;
+
+}
+
+.header h1 {
+  position: relative;
+  top:10px;
+ text-align: center;
+ color:rgb(61, 58, 59) ;
+ font-family:Lucida Grande;}
+
+ .imgnew{  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ padding-top: 10px;
+  padding-bottom: 20px;
+  border-radius: 40px;
+}
+
+h2{text-align: center; 
+   font-family:Garamond, serif; 
+   color:rgba(49, 48, 49, 0.63);}
+
+/*animation for image 2*/
+.img2{position:relative;
+     animation:kk 6s;} 
+ 
+ @keyframes kk {
+ 0%{left:0px; top:0px;}
+ 25%{left:-100px; top:0px;}
+ 50%{left:-100px; top:40px;}
+ 75%{left:0px; top:40px;}
+ 100%{left:0px; top:0px;}
+}
+
+</style>
+ 
+ </head>
+ 
+ <body>
+
+    <header>
+        <div class="header"> <!-- header for website  -->
+            <img src="logo.png" width="50" height="50" alt="Logo" >
+
+            <h1> ETA photography</h1>
+
+         </div>
+
+<div class= "navbar">
+        <nav> <!-- nav element groups navigation links  -->
+            
+              <a  href = "Aboutus.html"> About us </a> 
+              <a  href = "Themes.html"> Themes </a> 
+              <a href = "Morephoto.html"> More photo </a> 
+              <a  href = "Contactus.html"> Contact us </a> 
+            
+            </nav>
+</div>
+
+ <p><div class="search"> <!-- search of website -->
+    <label><br>Search:</label>
+    <input type="search" placeholder="Search" size = "20" >
+    </div>
+    </p>
+
+    <img class = "imgnew" src="headerimg.jpeg" width="800"
+        height ="260" alt="newborn">
+
+    </header>
+
+    <div>  <!-- create aside -->
+        <aside>
+            <h1 style="font-size: 35px; font-weight: bold; font-family: 'Trebuchet MS',
+            'Lucida Sans Unicode', 'Lucida Grande' ; color: brown; padding-bottom: 2px;">News</h1>
+           <details>
+               <summary> New: Opening of booking for the month of April !</summary>
+               <p>first : thank you for trusting us to captrue your toddler's photography.<br>
+                second:  we are pleased to inform you that booking for the month of April have been opened for newborns only. 
+                 <br>Don't miss the opportunity and hurry up to book, seats are limited</p>
+             </details>
+       
+             <details>
+               <summary> New: Ramadan theme</summary>
+               <p>Based on your desire, we will have a Ramadan theme suits your toddler</p>
+             </details>
+       
+             <details>
+               <summary> New: discount of 10% </summary>
+               <p>For every mother who allows pictures or a wooden board to be displayed on our 
+                   official Instagram page, she will have a 10% discount</p></details>
+        </aside>
+       </div>
+       
+
+
+<main>
+
+<!-- Section1 -->
+<section id="firstSection"> 
+    <div>
+      <article class="articalFst1" ><!-- overwiew about website  -->
+           <h2 style="padding-right: 40px;">Overwiew</h2>
+
+           <p style=" font-family:'Trebuchet MS', 'Lucida Sans Unicode'; color: rgba(51, 10, 51, 0.349); font-weight: bold;">
+           ETA photography an account dedicated in photographing toddlers and newborns to make your occasions an unforgettable memory.<br>
+            The account was established in 2020..
+           </p>
+       </article>
+
+      <article>
+        <h2 style="  padding-top: 12px;">Before booking please see this:</h2>
+
+        <ul><!-- unorder list for hyperlinks -->
+        <li><strong> <a href= "https://drive.google.com/file/d/1nMYew1_E4bljLof7pdKUScW5NN9jgaoP/view?usp=sharing" >
+            Studio policy</a></strong></li> <!-- click on the link  and will go to photo for studio policy -->
+        
+        <li><strong> <a href= "https://drive.google.com/file/d/116B4AW6VMIzjT0IZyegPb0X567Kt1UMU/view?usp=sharing" >
+           Ages for photography</a></strong></li><!-- click on the link and will go to photo for Ages for photograph -->
+
+        <li><strong> <a href= " https://drive.google.com/file/d/1FVsLgxrZIwcjDElDH4u5Zm25vLuuvxZZ/view?usp=sharing" >
+            Packages</a></strong></li><!-- click on the link and will go to type packages -->
+                        
+        </ul>
+      </article>
+  </div>
+</section>
+
+
+<section id="secondSection"> <!-- Section2 -->
+
+   <div>
+
+    <article class="articalSec2"><!-- use artical for img -->
+        <figure class="img2">
+            <img src="img2.jpeg" alt="toddler's photo"  style="width:50%  ; border-radius: 8px;">
+             <figcaption> img1: A picture of the toddler Iyad <br>farm theme </figcaption>  </figure> 
+     </article>
+
+  </div>
+</section>
+ </main>
+
+
+<footer>
+    <h5><strong> Copyright &copy;2020 ETA photography.</strong></h5> 
+    Contact us at :
+<p>
+    <address>
+        <img src="email.png" width="20" height="15" alt="email icon">
+    <a href = "mailto:Elaftaleb1414@gmail.com">Elaftaleb1414@gmail.com</a>
+    </address>
+</p>
+
+   <p> 
+       <img src="insta.png.crdownload" width="20" height="13" alt="instagram icon">
+    
+    <a href = "https://instagram.com/photography_eta?utm_medium=copy_link">Instagram</a></p>
+
+   </footer>
+ 
+</body>
+
+</html>
